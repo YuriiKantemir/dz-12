@@ -1,0 +1,9 @@
+test_type,man_first_name,man_last_name,man_age,woman_first_name,woman_last_name,woman_age,man_expected_value, woman_expected_value
+FIRST_NAME_SETTER_AND_GETTER,Billy,Herrington,50,Maria,Tereza,50,Billy,Maria
+LAST_NAME_SETTER_AND_GETTER,Billy,Herrington,50,Maria,Tereza,50,Herrington,Tereza
+RETIRED,Billy,Herrington,50,Maria,Tereza,50,false,false
+RETIRED,Billy,Herrington,65,Maria,Tereza,60,true,true
+AGE_SETTER_AND_GETTER,Billy,Herrington,51,Maria,Tereza,49,51,49
+AGE_SETTER_AND_GETTER,Billy,Herrington,51,Maria,Tereza,49,51,49
+REGISTER_PARTNERSHIP,Billy,Herrington,51,Maria,Tereza,49,Herrington,Herrington
+DEREGISTER_PARTNERSHIP,Billy,Herrington,51,Maria,Tereza,49,Herrington,Tereza
